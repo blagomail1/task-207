@@ -27,7 +27,7 @@ html {
 
 .card {
   box-sizing: border-box;
-  width: calc(500px - 2 * var(--border-width));
+  width: 480px;
   border: 10px solid $grey-light;
 }
 

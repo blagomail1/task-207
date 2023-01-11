@@ -26,12 +26,16 @@ html {
 }
 
 .card {
+  box-sizing: border-box;
+  width: calc(500px - 2 * var(--border-width));
   border: 10px solid $grey-light;
 }
 
 .card-header {
+  padding: 25px 5px 20px;
   background-color: $light;
 }
 
 .card .content {
+  padding: 30px 25px;
 }
